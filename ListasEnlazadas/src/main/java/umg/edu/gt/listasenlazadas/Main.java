@@ -1,6 +1,8 @@
 package umg.edu.gt.listasenlazadas;
 
 import umg.edu.gt.listasenlazadas.applications.TaskBacklogApp;
+import umg.edu.gt.listasenlazadas.doubly.DoublyListExample;
+import umg.edu.gt.listasenlazadas.retos.DoublyLinkedListChallenges;
 import umg.edu.gt.listasenlazadas.retos.LinkedListChallenges;
 import umg.edu.gt.listasenlazadas.simple.SimpleListExample;
 
@@ -15,11 +17,13 @@ public class Main {
         System.out.println();
 
         SimpleListExample.run();
+        DoublyListExample.run();
 
         System.out.println();
         System.out.println("=== APLICACIONES REALES ===");
         TaskBacklogApp.run();
 
         LinkedListChallenges.run();
+        DoublyLinkedListChallenges.run();
     }
 }
